@@ -1,0 +1,51 @@
+ .container {
+  width: 960px;
+  background: rgb(243, 243, 243);
+  margin: 0 auto;
+  padding: 15px;
+}
+h1 {
+  background: rgb(48,181,135);
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(243, 243, 243);
+  padding: 15px;
+  font-size: 28px;
+}
+.nav {
+  text-align: center;
+  padding: 20px 0;
+  margin: 10px;
+}
+a {
+  color: black;
+  padding: 0 12px;
+  text-decoration: none;
+}
+.blue-resort {
+  background: rgb(182, 219, 255);
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  padding: 10px 0;
+
+}
+.green-resort {
+  background: rgb(189, 241, 216);
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  padding: 10px 0;
+}
+.gibberish {
+  margin-left: 65px;
+  text-align: left;
+}
+p {
+  font-size: 17px;
+}
+.footer p {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
