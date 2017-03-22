@@ -1,0 +1,46 @@
+.container {
+  width: 720px;
+  padding-top: 54px;
+  padding-left: 54px;
+  border-left: 6px solid #dddddd;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.container h1, .continue a, footer nav a {
+  color: #dd0000;
+  text-decoration: none;
+}
+.container h1:hover, .continue a:hover, footer nav a:hover {
+  color: #aa0000;
+}
+header a {
+  color: #dddddd;
+}
+header a:hover {
+  color: black;
+}
+.date {
+  color: #cccccc;
+}
+.title {
+  color: black;
+}
+footer p {
+  color: #bbbbbb;
+}
+article {
+  margin:;
+  border-bottom:;
+}
+.continue {
+  text-align: right;
+  margin: 20px;
+}
+article {
+  border-bottom: 2px solid #dddddd;
+  margin-bottom: 50px;
+}
