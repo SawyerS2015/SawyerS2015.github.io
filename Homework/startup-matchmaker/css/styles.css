@@ -1,0 +1,132 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  background: url(../img/coworking.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+header {
+  background-color: black;
+  overflow: hidden;
+  padding: 15px;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  float: left;
+  margin: 0;
+  color: yellow;
+}
+nav {
+  float: right;
+  margin: 0px;
+  font-family: 'Oswald', sans-serif;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 8px;
+}
+#yellow-line {
+  background-color: yellow;
+  width: 100%;
+  height: 5px;
+}
+section h1 {
+  border-bottom: 1px solid black;
+  background-color: #C6C6C6;
+  color: black;
+  text-align: center;
+  width: 100%;
+  font-family: 'Merriweather', serif;
+  padding: 10px 0;
+}
+.line {
+  text-decoration: line-through;
+  background: #C6C6C6;
+  color: grey;
+}
+.underline {
+  border-bottom: 3px solid yellow;
+}
+aside {
+  font-family: 'Oswald', sans-serif;
+  overflow: hidden;
+}
+aside p {
+  font-size: 18px;
+  margin-top: -18px;
+}
+aside section {
+  margin-top: 30px;
+  border: 1px solid black;
+  float: right;
+  width: 32%;
+  height: 250px;
+  background: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-left: 55px;
+}
+aside button {
+  background-color: yellow;
+  border-radius: 5px;
+  width: 85%;
+  height: 18%;
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+footer {
+  display: inline-block;
+  background-color: rgb(250,250,250);
+  position: relative;
+  top: 100px;
+  width: 100%;
+  font-family: 'Merriweather', serif;
+  overflow: hidden;
+}
+#profile{
+  width: 26%;
+  float: left;
+  border-right: 1px solid black;
+  padding-right: 40px;
+}
+#developer{
+  width: 26%;
+  float: left;
+  border-right: 1px solid black;
+  padding-left: 80px;
+  padding-right: 70px;
+}
+#designer{
+  width: 26%;
+  float: right;
+}
+footer h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 21px;
+  margin-top: 20px;
+}
+footer section p {
+  margin-top: -20px;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+}
+footer button {
+  background-color: #C6C6C6;
+  border-radius: 5px;
+  width: 85%;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 25px;
+  padding: 5px;
+}
