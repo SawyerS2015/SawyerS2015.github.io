@@ -13,3 +13,17 @@
 // 5. Use .innerHTML to change the text inside of #colorful-text to colorStr
 
 // 6. Use .style.background to change the background of #wrapper to colorStr
+
+var colorBtn = document.querySelector('#color-button')
+var red = document.querySelector('#red')
+var green = document.querySelector('#green')
+var blue = document.querySelector('#blue')
+var colorStr = rgb(red, green, blue)
+
+function changeColor () {
+var red = document.querySelector('#red').value;
+var green = document.querySelector('#green').value;
+var blue = document.querySelector('#blue').value;
+}
+
+colorBtn.onclick = changeColor;
